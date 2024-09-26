@@ -15,7 +15,7 @@ console.log("Haz ingresado el número " + numero);
 console.log("")
 
 // Se debe calcular el factorial del número recibido.
-let resultado = factorial(numero);
+let resultado = factorial(numero); // Llamada a la función calculadora de factorial
 console.log("El factorial de " + numero + " es " + resultado);
 
 // Debe imprimir el resultado por el DOM de un archivo index.html que debes crear en el mismo directorio de tu proyecto.
@@ -23,6 +23,7 @@ document.getElementById("resultado").innerHTML =
     `El factorial de ${numero} calculado es: <br>
     ${resultado}`;
 
+// Función calculadora de factorial.
 function factorial(numero) {
     let resultado = 1;
     for (let i = 1; i <= numero; i++) {
